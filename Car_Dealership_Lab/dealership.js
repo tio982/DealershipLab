@@ -20,7 +20,7 @@ Dealership.prototype.addCar = function (newCar) {
     this.car = newCar;
     return currentStock.push(Car)};
 
-Dealership.prototype.countStock = function() {
+Dealership.prototype.countCurrentstock = function() {
     return currentStock.length};
 
  Dealership.prototype.CarManufacturer= function() {
